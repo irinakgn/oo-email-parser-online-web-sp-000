@@ -12,5 +12,6 @@ class EmailParser
   end
 
   def parser
+    @emails
   end
 end
