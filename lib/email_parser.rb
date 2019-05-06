@@ -12,6 +12,6 @@ class EmailParser
   end
 
   def parse
-    @emails.split(/[\.com|\,]/).map { |e| "#{e.gsub(/\s+/, "")}.com"  }
+    @emails.split(/[\.com\,]/).map { |e| "#{e.gsub(/\s+/, "")}.com"  }
   end
 end
