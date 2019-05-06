@@ -12,6 +12,6 @@ class EmailParser
   end
 
   def parse
-    @emails.split(',')
+    @emails.split(',')map { |e| e.trim()  }
   end
 end
